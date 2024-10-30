@@ -216,7 +216,6 @@ int main() {
 int main() {
     int choice;
     cin >> choice;
-
     /* Coffee Types:
     1. Espresso
     2. Americano
@@ -238,8 +237,7 @@ int main() {
             break;
         default:
             cout << "Unavailable";
-    };
-
+    }
 }
 
 // Task - Playground Tickets
