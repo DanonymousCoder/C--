@@ -53,3 +53,23 @@ int main() {
     string smiley = "      @@@@            @@@@\n     @@@@@@          @@@@@@\n     @@@@@@          @@@@@@\n      @@@@            @@@@\n\n\n\n@                             @\n @@                         @@\n   @@@                   @@@\n      @@@@@         @@@@@\n         @@@@@@@@@@@@@\n";
     cout << smiley;
 }
+
+int main() {
+  int a = 8;
+  int b = 24;
+  cout << a+b;
+}
+
+int main() {
+    int price = 2000;
+    int discount = 500;
+    int result = price - discount;
+    cout << result;
+}
+
+int main() {
+    int points = 30;
+    int level = 3;
+    int total = points * level;
+    cout << total;
+}
