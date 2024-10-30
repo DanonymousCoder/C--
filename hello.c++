@@ -103,6 +103,8 @@ int main() {
     cout << result;
 }
 
+
+// auto is used for automatically assigning the keyword(int, double, string) depending on the vlaue
 int main() {
     auto flot = 3.12;
     auto num = 5;
@@ -110,3 +112,16 @@ int main() {
 
     cout << flot<<" "<<num<<" "<<txt;
 }
+
+int main() {
+  // storing the height of the user
+  double height = 74.8; // this is just a demo value 
+  cout << height;
+}
+
+// single line comment
+/* 
+    This is a multi-line comment
+*/
+
+// Task - Shopping
