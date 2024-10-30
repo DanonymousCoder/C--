@@ -125,3 +125,24 @@ int main() {
 */
 
 // Task - Shopping
+// This task really gave me a run for my skillset
+
+int main() {
+        // your account's balance
+    auto balance = 2452.4;
+    // price for each notebook
+    auto price = 259.99;
+
+    // Task: calculate the number of notebooks you can afford and output it.
+    // Hint: use an integer to store the result.
+    int sum = balance / price;
+    
+    
+
+    // Task: calculate the amount left over on your account after the purchase and output it on a new line.
+    // Hint: calculate the total price of the purchase, then substract it from the balance.
+    double leftOver = sum * price;
+    double actual = balance - leftOver;
+    cout << sum << endl;
+    cout << actual;
+}
