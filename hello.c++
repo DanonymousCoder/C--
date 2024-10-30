@@ -93,3 +93,12 @@ int main() {
 }
 
 // Task - Painting a Wall
+
+int main() {
+    double length = 5.6;
+    double height = 3.1;
+
+    double result = length * height;
+
+    cout << result;
+}
