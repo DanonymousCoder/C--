@@ -73,3 +73,23 @@ int main() {
     int total = points * level;
     cout << total;
 }
+
+int main() {
+    int hours = 500;
+    int days = hours / 24;
+    cout << days;
+}
+
+int main() {
+    double hours = 500;
+    double days = hours / 24;
+    cout << days;
+}
+
+int main() {
+    int days = 500;
+    int days = days % 24;
+    cout << days;
+}
+
+// Task - Painting a Wall
