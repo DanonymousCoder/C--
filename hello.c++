@@ -146,3 +146,25 @@ int main() {
     cout << sum << endl;
     cout << actual;
 }
+
+int main() {
+    int age;
+    cin >> age;
+    cout << "Age " << age;
+}
+
+int name() {
+    string name;
+    cout << "Enter your name"<< endl;
+    cin >> name;
+    cout << "Hello " << name << "!";
+}
+
+int main() {
+    double length;
+    double height;
+
+    cin >> length >> height;
+    cout << length * height;
+    
+}
