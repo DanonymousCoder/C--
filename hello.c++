@@ -102,3 +102,11 @@ int main() {
 
     cout << result;
 }
+
+int main() {
+    auto flot = 3.12;
+    auto num = 5;
+    auto txt = "Hello World!";
+
+    cout << flot<<" "<<num<<" "<<txt;
+}
