@@ -238,7 +238,7 @@ int main() {
             break;
         default:
             cout << "Unavailable";
-    }
+    };
 
 }
 
@@ -255,4 +255,12 @@ int main() {
         cout << "Normal";
     }
 
+}
+
+int main() {
+    int num = 5;
+    while(num > 0) {
+        cout << num << endl;
+        num--;  // or num = num - 1
+    }
 }
