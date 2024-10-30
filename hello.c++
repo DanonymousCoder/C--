@@ -168,3 +168,76 @@ int main() {
     cout << length * height;
     
 }
+
+
+if(condition) {
+  //some code
+} 
+else if(condition) {
+//some other code
+} 
+else {
+  //some other code
+}
+
+// Task - Club Entrance
+int main() {
+    //your code goes here
+    int age;
+    cin >> age;
+    if (age >= 16) {
+        cout << "Welcome";
+    }
+    else {
+        cout << "Not allowed";
+    }
+}
+
+// Task - coffee machine
+int main() {
+    int code = 2;
+    switch(code) {
+        case 1:
+            cout << "coffee";
+            break;
+        case 2:
+            cout << "water";
+            break;
+        case 3:
+            cout << "cookie";
+            break;
+        default:
+            cout << "Try again";
+    }
+}
+
+
+
+int main() {
+    int choice;
+    cin >> choice;
+
+    /* Coffee Types:
+    1. Espresso
+    2. Americano
+    3. Cappuccino
+    4. Latte
+    */
+    switch(choice) {
+        case 1:
+            cout << "Espresso";
+            break;
+        case 2:
+            cout << "Americano";
+            break;
+        case 3:
+            cout << "Cappuccino";
+            break;
+        case 4:
+            cout << "Latte";
+            break;
+        default:
+            cout << "Unavailable";
+    }
+
+}
